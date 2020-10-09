@@ -13,42 +13,29 @@ body {
 .container {
     width: 100%;
     max-width: 1140px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;}
+    margin: 0 auto;}
 
 
 header {
     background:  url(./img/header-background.jpg) center no-repeat;
     width: 100%;
-    height: 100vh;
+   
     background-size: cover;}
+    
 
 .header__inner{
-    position: absolute;
-    z-index: 1000;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: url(./img/nav__background.jpg);}
+    
+    background: url(./img/nav__background.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;}
     
 
 .header__logo {
     font-family: 'Kaushan Script', cursive;
     font-size: 35px;
     color: #616161;}
-
-.header__text {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 40px;
-    text-align: center;
-    color: #fff;
-    margin-top: 270px;
-    font-weight: 400;
-
-}
-    
 
 span {
     font-family: 'Kaushan Script', cursive;
@@ -58,13 +45,62 @@ span {
 nav{
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    margin-left: 20px;
-}
+    margin-left: 20px;}
 
 .nav__link {
     text-decoration: none;
     color: #616161;
-    margin-left: 20px;
-}
+    margin-left: 20px;}
 
+.header__text {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+    font-weight: 400;
+    margin-bottom: 50px;}
 
+.btn {
+    display: inline-block;
+    text-align: center;
+    background-color: #fc5f45;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 20px 50px;
+    border-radius: 60px;
+    margin-bottom: 80px;}
+
+    .button {
+    text-align: center;}
+
+   .header__icons {
+       display: flex;
+       padding-bottom: 180px;}
+
+   .icons__item {
+       width: 33.33333%;
+       text-align: center;}
+
+    .icon {
+        margin-bottom: 40px;}
+
+    .icon__tittle1, .icon__tittle2, .icon__tittle3 {
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: 'Poppins', sans-serif;}
+
+    .icon__tittle1 {
+        color: #38c594;
+    }
+
+    .icon__tittle2 {
+        color: #b27cf5;
+    }
+
+    .icon__tittle3 {
+        color: #feb960;
+    } 
