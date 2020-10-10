@@ -23,7 +23,8 @@ header {
     background-size: cover;}
 
 .header__inner{  
-    background: url(./img/nav__background.jpg);
+    background: url(./img/nav__background.jpg) center no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -239,3 +240,27 @@ nav {
     bottom: 0;
     width: 100%;
     max-width: 225px;}
+
+.videoBG {
+    background: url(./img/background-video-BG.png) center no-repeat;
+    background-size: cover;}
+
+.video {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;}
+
+.video__tittle {
+    margin-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 200;}
+
+.video__suptittle {
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 200;
+}
