@@ -1,4 +1,4 @@
-
+/*BODY*=====================================*/
 *,
 *:before,
 *:after {
@@ -15,23 +15,22 @@ body {
     max-width: 1140px;
     margin: 0 auto;}
 
+/*HEADER*===============================*/
 
 header {
     background:  url(./img/header-background.jpg) center no-repeat;
     width: 100%;
-   
     background-size: cover;}
-    
 
-.header__inner{
-    
+.header__inner{  
     background: url(./img/nav__background.jpg);
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 75px;}
-    
 
+/*HEADER__LOGO*/
+    
 .header__logo {
     font-family: 'Kaushan Script', cursive;
     font-size: 35px;
@@ -42,7 +41,9 @@ span {
     font-size: 35px;
     color:#fc5f45;}
 
-nav{
+/*HEADER__NAV*/
+
+nav {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     margin-left: 20px;}
@@ -52,6 +53,8 @@ nav{
     color: #616161;
     margin-left: 20px;}
 
+/*HEADER__TEXT*/
+
 .header__text {
     font-family: 'Libre Baskerville', serif;
     font-size: 40px;
@@ -60,6 +63,8 @@ nav{
     padding-top: 180px;
     font-weight: 400;
     margin-bottom: 50px;}
+
+/*HEADER__BUTTON*/
 
 .btn {
     display: inline-block;
@@ -74,101 +79,163 @@ nav{
     border-radius: 60px;
     margin-bottom: 80px;}
 
-    .button {
+.button {
     text-align: center;}
 
-   .header__icons {
-       display: flex;
-       padding-bottom: 180px;}
+/*HEADER__FEATURES*/
 
-   .icons__item {
-       width: 33.33333%;
-       text-align: center;}
+.header__icons {
+    display: flex;
+    padding-bottom: 180px;}
 
-    .icon {
-        margin-bottom: 40px;}
+.icons__item {
+    width: 33.33333%;
+    text-align: center;}
 
-    .icon__tittle1, .icon__tittle2, .icon__tittle3 {
-        font-size: 18px;
-        text-transform: uppercase;
-        font-family: 'Poppins', sans-serif;}
+.icon {
+    margin-bottom: 40px;}
 
-    .icon__tittle1 {
-        color: #38c594;}
+.icon__tittle1, .icon__tittle2, .icon__tittle3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;}
 
-    .icon__tittle2 {
-        color: #b27cf5;}
+.icon__tittle1 {
+    color: #38c594;}
 
-    .icon__tittle3 {
-        color: #feb960;} 
+.icon__tittle2 {
+    color: #b27cf5;}
 
-    .left {
-        margin-top: 150px;
+.icon__tittle3 {
+    color: #feb960;} 
 
-    }
+/*MAIN*======================================*/
 
-    .about__us {
-        display: flex;
-        position: relative;
-        padding-bottom: 150px;
-    }
+/*ABOUT__US*/
 
-    .numer{
-        font-family: 'Poppins', sans-serif;
-        font-size: 274px;
-        color:#f6f6f6;
-        position: absolute;
-        z-index: -1;
-        left: 0px;
-        top: -100px;
-        padding: 0px;
-        background-position: 0% 0%;
-        text-align: center;
-        font-weight: 700;
+.about__us {
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding-bottom: 150px;}
     
-    }
+.left {
+    margin-top: 150px;}
 
-
-    .right {
-        background-color: #fff;
-        margin-top: 225px;
-        display: block;
-        max-width: 650px;
-        max-height: 550px;
-        text-align: left;
-        padding: 80px;
-        left: 488px;
-        position: absolute;
-        z-index: 5;
-    }
+.right {
+    background-color: #fff;
+    margin-top: 225px;
+    display: block;
+    max-width: 650px;
+    max-height: 550px;
+    text-align: left;
+    padding: 80px;
+    left: 488px;
+    position: absolute;
+    z-index: 5;}
      
-    .about__tittle {
-        font-family: 'Libre Baskerville', serif;
-        font-size: 50px;
-        color: #313131;
-        margin-bottom: 50px;
-       
-    }
+.about__tittle {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+    color: #313131;
+    margin-bottom: 50px;}
 
-    .about_us_text {
-        font-family: 'Poppins', sans-serif;
-        font-size: 14px;
-        color: #616161
-    }
+.about_us_text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #616161;
+    width: 100%;}
     
-    .second__paragraph {
-        margin-top: 15px;
-        padding-bottom: 25px;
-    }
+.second__paragraph {
+    margin-top: 15px;
+    padding-bottom: 25px;}
 
-    .lines {
-        display: flex;
-        position: absolute;
-        z-index: 1;
-        left 0;
-        right: 0;
-        bottom: 0;
-        width 100%;
-        max-width: 650px;
-        
-    }
+.numer01 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 274px;
+    color:#f6f6f6;
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    top: -100px;
+    padding: 0px;
+    background-position: 0% 0%;
+    text-align: center;
+    font-weight: 700;}
+
+.lines {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 650px;} 
+
+/*OUR__FOCUS*/
+
+.our__focus {
+    background-color: #f7f7f7;
+}
+
+.OF__tittle {
+    text-align: center;
+    padding-top: 150px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+    color: #313131;
+}
+
+.OF__subtittle {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family:'Poppins', sans-serif;
+    color: #616161;}
+
+.services {
+    display: flex;
+    padding-bottom: 150px;}
+
+.service__item {
+    width: 25%;
+    max-width: 255px;
+    height: 100%;
+    max-height: 350px;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 85px;
+    padding: 70px 35px;
+    margin-left: 30px;}
+
+.service_icon{
+    margin-bottom: 35px;}
+
+.service_tittle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #313131;
+    margin-bottom: 40px;}
+
+/*Текст второго блока чуть ниже потому, 
+что иконка блока 55х49 пт, остальные 55х40....
+Делать отдельный класс мне было лень...да и вообще, 
+по поему так быть не должно.*/
+
+.service_text {
+    font-family:'Poppins', sans-serif;
+    color: #616161;
+    font-size: 14px;}
+
+/*Линии не прилипают к низу. Почему - я так и не понял.*/
+
+.line {
+    position: relative;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 225px;}
