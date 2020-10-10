@@ -18,12 +18,12 @@ body {
 /*HEADER*===============================*/
 
 header {
-    background:  url(./img/header-background.jpg) center no-repeat;
+    background:  url(./img/Header/header-background.jpg) center no-repeat;
     width: 100%;
     background-size: cover;}
 
 .header__inner{  
-    background: url(./img/nav__background.jpg) center no-repeat;
+    background: url(./img/Header/nav__background.jpg) center no-repeat;
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -178,14 +178,32 @@ nav {
 
 .our__focus {
     background-color: #f7f7f7;
+    position: relative;
+    z-index: -2;
 }
+
+/*С этими номерами все как то криво и сложно получилось...явно можно как то проще...НО КАК?))*/
+
+.numer02 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 274px;
+    color:black;
+    position: relative;
+    background-position: center;
+    text-align: center;
+    font-weight: 700;
+    z-index: -1;
+    top: -90px;
+    color: #f0f0f0;}
 
 .OF__tittle {
     text-align: center;
-    padding-top: 150px;
+    top: -265px;
     font-family: 'Libre Baskerville', serif;
     font-size: 25px;
     color: #313131;
+    position: relative;
+    z-index: 1000;
 }
 
 .OF__subtittle {
@@ -194,11 +212,16 @@ nav {
     font-size: 18px;
     font-weight: 400;
     font-family:'Poppins', sans-serif;
-    color: #616161;}
+    color: #616161;
+    top: -265px;
+    position: relative;
+    z-index: 1000;}
 
 .services {
     display: flex;
-    padding-bottom: 150px;}
+    
+    position: relative;
+    top: -265px}
 
 .service__item {
     width: 25%;
@@ -221,8 +244,8 @@ nav {
     margin-bottom: 40px;}
 
 /*Текст второго блока чуть ниже потому, 
-что иконка блока 55х49 пт, остальные 55х40....
-Делать отдельный класс мне было лень...да и вообще, 
+что иконка блока 55х49 пт, остальные 55х40 пт....
+Делать отдельный класс мне было лень :)...да и вообще, 
 по поему так быть не должно.*/
 
 .service_text {
@@ -241,8 +264,10 @@ nav {
     width: 100%;
     max-width: 225px;}
 
+/*VIDEO__BG*/
+
 .videoBG {
-    background: url(./img/background-video-BG.png) center no-repeat;
+    background: url(./img/VideoBG/background-video-BG.png) center no-repeat;
     background-size: cover;}
 
 .video {
@@ -262,5 +287,75 @@ nav {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     color: #fff;
-    font-weight: 200;
-}
+    font-weight: 200;}
+
+/*PORTFOLIO*/
+
+.portfolio {
+    padding-top: 150px;
+    background-color: #fff;}
+
+.P__tittle {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+    color: #313131;
+    margin-bottom: 50px;
+    text-align: center;}
+    
+.P__subtittle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #616161;
+    padding-bottom: 85px;
+    text-align: center;}
+
+.photos {
+    padding-bottom: 150px;}
+
+.portfolio__item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-top: 10px;}
+    
+.project_one {
+    text-align: center;
+    width: 100%;
+    max-width: 370px;
+    height: 100%;
+    max-height: 300px;
+    background-color: #fff;}
+
+.PO__img {
+    margin-bottom: 25px;
+    margin-top: 5px;
+    position: relative;
+    z-index: 1;}
+
+.PO_TG {
+    position: relative;
+    z-index: 2;
+    top: -45px;}
+
+.PO_TG_tittle {
+    position: relative;
+    z-index: 3;
+    top: -90px;
+    font-family:'Poppins', sans-serif;
+    font-size: 18px}
+
+.PO_icon {
+    position: relative;
+    z-index: 4;
+    top: -285px;}
+
+.PO_TG_lines {
+    display: flex;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+    max-width: 370px;
+    width: 100%;
+    top: -205px;
+    left: 5px;}
+
