@@ -221,7 +221,7 @@ nav {
 
 .services {
     display: flex;
-    
+    justify-content: space-between;
     position: relative;
     top: -265px}
 
@@ -233,8 +233,7 @@ nav {
     background-color: #fff;
     text-align: center;
     margin-top: 85px;
-    padding: 70px 35px;
-    margin-left: 30px;}
+    padding: 70px 35px;}
 
 .service_icon{
     margin-bottom: 35px;}
@@ -298,6 +297,8 @@ nav {
     background-color: #fff;
     position: relative;
     z-index: 1;
+    height: 100%;
+    max-height: 1385px;
     }
 
 .P__tittle {
@@ -327,9 +328,10 @@ nav {
 
 .portfolio__item {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin-left: 10px;
-    margin-top: 10px;}
+    
+    margin-top: 15px;}
 
 /*С блоком project_one намучался страшно...явно есть способ по-проще (какой?) :))*/
     
@@ -340,23 +342,23 @@ nav {
     height: 100%;
     max-height: 290px;
     background-color: #fff;
-    margin-left: 10px;}
+    }
 
 .PO__img {
     
     position: relative;
     z-index: 1;
-    top: 10px;}
+    top: 15px;}
 
 .PO_TG {
     position: relative;
     z-index: 2;
-    top: -28px;}
+    top: -23px;}
 
 .PO_TG_tittle {
     position: relative;
     z-index: 3;
-    top: -75px;
+    top: -70px;
     font-family:'Poppins', sans-serif;
     font-size: 18px}
 
@@ -372,7 +374,7 @@ nav {
     z-index: 5;
     max-width: 370px;
     width: 100%;
-    top: -190px;}
+    top: -185px;}
 
 .numer03 {
     font-family: 'Poppins', sans-serif;
@@ -385,3 +387,78 @@ nav {
     z-index: 0;
     top: -90px;
     color: #f6f6f6;}
+
+/*OUR__TEAM*/
+
+.team {
+    background-color: #f7f7f7;}
+
+.team__tittle {
+    padding-top: 150px;
+    text-align: center;
+    margin-bottom: 45px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50px;
+    color: #313131;}
+
+.team__subtittle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #616161;
+    padding-bottom: 85px;
+    text-align: center;}
+
+.members {
+    display: flex;
+    justify-content: space-between;}
+
+.members_icon {
+    margin-bottom: 20px;}
+
+.members_item {
+    text-align: center;
+    max-width: 263px;
+    height: 100%;
+    max-height: 385px;
+    background-color: #fff;
+    text-align: center;}
+
+.member_name1, .member_name2, .member_name3, .member_name4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;}
+
+.member_prof {
+    font-family:'Poppins', sans-serif;
+    color: #616161;
+    font-size: 13px;
+    margin-bottom: 15px;}
+
+.member_name1 {
+    color: #fc5f45;}
+
+.member_name2 {
+    color: #38c695;}
+
+.member_name3 {
+    color: #b27cf5;}
+
+.member_name4 {
+    color: #feb960;}
+
+.m_line {
+    width: 100%;
+    max-width: 263px;}
+
+.about_bannet {
+    text-align: center;}
+
+.ab_BG {
+    width: 100%;
+    max-width: 1170px;}
+
+
+
+
+
+
